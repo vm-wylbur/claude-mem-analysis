@@ -1,0 +1,290 @@
+{
+  "investigation_prompts": {
+    "phase_1_foundation": [
+      {
+        "id": "CROSS_001",
+        "title": "Productivity Pattern Cross-Validation",
+        "prompt": "Compare the top 5 productivity patterns discovered in Elasticsearch hourly aggregations with Neo4j temporal sequences. Do they tell the same story? Where do they diverge? Use specific memory IDs to trace discrepancies.",
+        "data_sources": ["elasticsearch", "neo4j"],
+        "expected_output": "Pattern comparison matrix with convergence/divergence analysis"
+      },
+      {
+        "id": "CROSS_002", 
+        "title": "Semantic-to-Workflow Mapping",
+        "prompt": "Use pgvector to find the top 10 most semantically similar memory clusters (similarity > 0.8), then trace those same memory IDs through Neo4j to map their workflow sequences. What causal chains emerge from semantically similar content?",
+        "data_sources": ["pgvector", "neo4j"],
+        "expected_output": "Semantic cluster → workflow sequence mapping with causal analysis"
+      },
+      {
+        "id": "CROSS_003",
+        "title": "Domain Expertise Validation",
+        "prompt": "Elasticsearch shows domain expertise evolution through complexity progression - validate this against Neo4j relationship depth and connection patterns over time. Does Neo4j relationship complexity correlate with Elasticsearch complexity metrics?",
+        "data_sources": ["elasticsearch", "neo4j"],
+        "expected_output": "Expertise validation matrix with correlation coefficients"
+      }
+    ],
+    "phase_2_unique_capabilities": [
+      {
+        "id": "UNIQUE_001",
+        "title": "Neo4j Workflow Bottleneck Discovery",
+        "prompt": "What can Neo4j reveal about workflow bottlenecks that Elasticsearch aggregations miss? Focus on sequence interruptions, backtracking patterns, and dead-end workflows. Identify memories that break normal flow patterns.",
+        "data_sources": ["neo4j"],
+        "expected_output": "Bottleneck taxonomy with specific memory ID examples"
+      },
+      {
+        "id": "UNIQUE_002", 
+        "title": "Hidden Semantic Themes",
+        "prompt": "Use pgvector to discover conceptual themes that don't appear in explicit tags or domain classifications. Find semantic clusters that cross traditional boundaries. What hidden knowledge domains emerge?",
+        "data_sources": ["pgvector"],
+        "expected_output": "Hidden theme taxonomy with representative memory samples"
+      },
+      {
+        "id": "UNIQUE_003",
+        "title": "Multi-Dimensional Pattern Mining",
+        "prompt": "Elasticsearch can aggregate by sentiment + complexity + time + domain simultaneously. Discover 3D patterns that single-dimension analysis misses. What emerges when you correlate all dimensions?",
+        "data_sources": ["elasticsearch"],
+        "expected_output": "Multi-dimensional correlation matrix with pattern insights"
+      }
+    ],
+    "phase_3_hypothesis_generation": [
+      {
+        "id": "HYPO_001",
+        "title": "Problem-Solution Success Mapping",
+        "prompt": "Neo4j: Map all problem → solution chains by tracing memories tagged with problem indicators to their resolution memories. Calculate success rates, time-to-resolution, and solution pattern effectiveness. Which solution approaches have highest success rates?",
+        "data_sources": ["neo4j"],
+        "expected_output": "Problem-solution effectiveness matrix with success probabilities"
+      },
+      {
+        "id": "HYPO_002",
+        "title": "Problem-Productivity Correlation",
+        "prompt": "Elasticsearch: Correlate problem occurrence times with productivity metrics (work volume, sentiment, complexity). Do problems cluster during low-productivity windows, or do they cause productivity drops? Analyze temporal relationships.",
+        "data_sources": ["elasticsearch"],
+        "expected_output": "Causal analysis of problem-productivity relationships"
+      },
+      {
+        "id": "HYPO_003",
+        "title": "Solution Success Semantic Patterns",
+        "prompt": "pgvector: Find memories semantically similar to highly successful problem resolutions (positive sentiment + resolution tags). What common language patterns, frameworks, or approaches predict solution success?",
+        "data_sources": ["pgvector"],
+        "expected_output": "Success pattern vocabulary and semantic markers"
+      },
+      {
+        "id": "HYPO_004",
+        "title": "Learning Curve Relationship Evolution",
+        "prompt": "Neo4j: Trace expertise evolution paths by analyzing how relationship patterns change as someone masters a domain. Do connections become more complex or more efficient over time? Map novice→expert transitions.",
+        "data_sources": ["neo4j"],
+        "expected_output": "Expertise evolution pathway models"
+      },
+      {
+        "id": "HYPO_005",
+        "title": "Complexity Progression Analysis",
+        "prompt": "Elasticsearch: Analyze complexity progression over time within each technical domain. Does complexity increase linearly, in jumps, or plateau? Identify complexity breakthrough moments.",
+        "data_sources": ["elasticsearch"],
+        "expected_output": "Domain-specific complexity evolution curves"
+      },
+      {
+        "id": "HYPO_006",
+        "title": "AI-AI Interaction and Multi-Agent Workflow Analysis", 
+        "prompt": "Search memory content for patterns involving multiple AI systems, AI handoffs, or multi-agent workflows. Use pgvector to find semantic clusters around AI collaboration concepts. Analyze through Neo4j for temporal patterns in AI-AI interactions. What makes AI systems work well together? When do multi-agent approaches succeed vs fail?",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "AI-AI interaction optimization framework with multi-agent workflow best practices"
+      }
+    ],
+    "phase_4_deep_investigation": [
+      {
+        "id": "DEEP_001",
+        "title": "Optimal Workflow Template Design",
+        "prompt": "Cross-reference Neo4j sequence analysis with Elasticsearch productivity hotspots to design an optimal daily workflow template. What sequence patterns maximize productivity during peak hours?",
+        "data_sources": ["neo4j", "elasticsearch"],
+        "expected_output": "Evidence-based optimal workflow schedule"
+      },
+      {
+        "id": "DEEP_002",
+        "title": "Planning-to-Execution Pipeline Optimization",
+        "prompt": "Use pgvector similarity to group planning memories, then trace their Neo4j implementation sequences. What planning content patterns lead to smoother, more successful execution?",
+        "data_sources": ["pgvector", "neo4j"],
+        "expected_output": "Planning pattern → execution success correlation"
+      },
+      {
+        "id": "DEEP_003",
+        "title": "Complexity Escalation Root Cause Analysis",
+        "prompt": "Elasticsearch: Find complexity escalation trigger points, then use Neo4j to trace backward through workflow decisions that led to those escalations. What choices predict complexity explosions?",
+        "data_sources": ["elasticsearch", "neo4j"],
+        "expected_output": "Complexity escalation decision tree with preventive measures"
+      },
+      {
+        "id": "DEEP_005",
+        "title": "Human-AI Interaction Pattern Analysis",
+        "prompt": "Analyze memory content for patterns in human-AI collaboration. Use pgvector to find clusters of AI-assisted work, then trace through Neo4j to see workflow impacts. Elasticsearch should reveal productivity/sentiment patterns when AI tools are used. What makes human-AI collaboration most effective? When does it hinder vs help?",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Human-AI collaboration effectiveness model with optimization strategies"
+      },
+      {
+        "id": "DEEP_006", 
+        "title": "QA Process Optimization Analysis",
+        "prompt": "Focus on memories related to testing, debugging, code review, and quality assurance. Use Neo4j to trace bug detection → fix → validation workflows. Elasticsearch should reveal time-to-resolution patterns and QA effectiveness metrics. What QA approaches prevent the most issues? When do QA processes become bottlenecks?",
+        "data_sources": ["neo4j", "elasticsearch", "pgvector"],
+        "expected_output": "QA process optimization recommendations with metrics-driven improvements"
+      },
+      {
+        "id": "DEEP_004",
+        "title": "Early Warning Signal Detection",
+        "prompt": "Neo4j: Identify early warning signals in workflow sequences that predict future problems. Analyze patterns that precede negative outcomes. Can we create a predictive 'risk score' for development paths?",
+        "data_sources": ["neo4j"],
+        "expected_output": "Predictive risk model with early warning indicators"
+      }
+    ],
+    "phase_5_meta_analysis": [
+      {
+        "id": "WORKFLOW_001",
+        "title": "Comprehensive Workflow Optimization Recommendations",
+        "prompt": "Based on all pattern discoveries across the three data sources, generate specific recommendations for improving: 1) Development workflows (coding, testing, deployment), 2) QA processes (quality assurance, review cycles, bug detection), 3) Human-AI interaction patterns (how developers work with AI tools, prompt engineering, AI-assisted coding), 4) AI-AI interaction optimization (when multiple AI systems collaborate, handoffs between AI agents, multi-agent workflows). For each category, provide evidence-based recommendations with specific implementation steps, expected benefits, and success metrics. Focus on actionable improvements that can be implemented immediately.",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Comprehensive workflow optimization guide with specific recommendations for dev/QA/human-AI/AI-AI interactions"
+      },
+      {
+        "id": "META_001",
+        "title": "Contradiction Investigation",
+        "prompt": "Identify the biggest contradiction between what the three data sources reveal about development patterns. Investigate this contradiction deeply and propose explanations for the discrepancy.",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Contradiction analysis with resolution hypotheses"
+      },
+      {
+        "id": "META_002",
+        "title": "Autonomous Hypothesis Generation",
+        "prompt": "Based on all patterns discovered so far, generate 5 new hypotheses about development workflow optimization that haven't been directly tested. Design specific queries for each data source to test these hypotheses.",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Novel hypothesis list with testing methodologies"
+      },
+      {
+        "id": "META_003",
+        "title": "Unified Development Model Creation",
+        "prompt": "Create a unified model of effective development workflow that incorporates insights from all three data sources. Where do they complement each other vs contradict? Synthesize into actionable framework.",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Comprehensive development effectiveness model"
+      },
+      {
+        "id": "META_004",
+        "title": "Investigation System Evolution and Prompt Optimization",
+        "prompt": "Based on your complete investigation experience, evaluate the effectiveness of the 23+ investigation prompts you executed. Which prompts yielded the most valuable insights? Which were less useful or redundant? Generate 3-5 new investigation prompts that would address gaps you discovered or pursue promising new directions. Recommend specific improvements to existing prompts (rewording, better data source targeting, clearer expected outputs). Create a JSON structure with: 1) Prompt effectiveness ratings (1-10 scale), 2) Recommended prompt improvements, 3) New prompt proposals with full specifications (id, title, prompt, data_sources, expected_output), 4) Investigation methodology improvements for future analyst runs. Your goal is to evolve this investigation system to be more effective for the next retro-claude analyst.",
+        "data_sources": ["self-reflection", "prompt-database"],
+        "expected_output": "Investigation system evolution report with specific prompt database improvements and new prompt specifications"
+      }
+    ],
+    "phase_6_technical_forensics": [
+      {
+        "id": "TECH_001",
+        "title": "Schema Evolution Forensics",
+        "prompt": "Find all database schema changes across the timeline. What fields were added/removed/modified? What broke and how was it fixed? Look for ALTER TABLE statements, migration scripts, or schema version changes. Provide specific memory IDs with dates, breaking changes, and fix strategies.",
+        "data_sources": ["pgvector", "elasticsearch"],
+        "expected_output": "Specific schema changes with dates, breaking changes, fix strategies with memory ID evidence"
+      },
+      {
+        "id": "TECH_002", 
+        "title": "Error Message Archaeology",
+        "prompt": "Search for error messages that changed over time. Find instances where '[object Object]' or unhelpful errors were replaced with specific messages. What debugging improvements were made? Include specific memory IDs and before/after code examples.",
+        "data_sources": ["pgvector", "elasticsearch"],
+        "expected_output": "Before/after error handling code, specific line changes, debugging evolution with memory ID references"
+      },
+      {
+        "id": "TECH_003",
+        "title": "Failed Attempt Analysis", 
+        "prompt": "Find memories mentioning 'didn't work', 'failed', 'broken', or 'retry'. What specific technical approaches failed before the working solution? Include the failed code/config with memory IDs and timestamps.",
+        "data_sources": ["pgvector", "elasticsearch", "neo4j"],
+        "expected_output": "Failed attempts with specific code, what was wrong, final working solution, memory ID traces"
+      },
+      {
+        "id": "TECH_004",
+        "title": "Configuration Decision Tracking",
+        "prompt": "Extract all configuration choices: database settings, model parameters, API endpoints, timeout values. What specific values were chosen and why? What got tuned over time? Include memory IDs with rationale (e.g., 'chose 768 dimensions for nomic-embed-text because...').",
+        "data_sources": ["pgvector", "elasticsearch"],
+        "expected_output": "Config values with rationale and memory ID evidence for decision-making process"
+      },
+      {
+        "id": "TECH_005",
+        "title": "Dependency and Import Evolution",
+        "prompt": "Track changes in package.json, requirements.txt, or import statements. What libraries were added/removed? What versions changed? What compatibility issues arose? Provide specific memory IDs documenting these changes.",
+        "data_sources": ["pgvector", "neo4j"],
+        "expected_output": "Specific package changes, version conflicts, resolution strategies with temporal sequencing"
+      },
+      {
+        "id": "TECH_006",
+        "title": "Performance Bottleneck Discoveries",
+        "prompt": "Find mentions of 'slow', 'timeout', 'performance', or specific timing measurements. What operations were optimized? Include before/after metrics with memory IDs (e.g., 'embedding generation took 5s, reduced to 0.5s by...').",
+        "data_sources": ["elasticsearch", "pgvector"],
+        "expected_output": "Specific operations with timing measurements, optimization strategies, memory ID evidence"
+      },
+      {
+        "id": "TECH_007",
+        "title": "Integration Point Debugging",
+        "prompt": "Search for API integration issues - authentication failures, rate limits, connection errors. What specific error codes/responses were encountered? How were they resolved? Include memory IDs with HTTP status codes and error responses.",
+        "data_sources": ["pgvector", "elasticsearch"],
+        "expected_output": "HTTP status codes, error responses, specific fixes applied with memory ID documentation"
+      },
+      {
+        "id": "TECH_008",
+        "title": "Code Duplication Remediation",
+        "prompt": "Find mentions of 'duplicate', 'refactor', or 'DRY'. What specific code patterns were repeated? Show the before (duplicated) and after (consolidated) code with memory IDs documenting the refactoring process.",
+        "data_sources": ["pgvector", "neo4j"],
+        "expected_output": "Actual duplicated code blocks, the unified solution, number of instances replaced with memory ID traces"
+      },
+      {
+        "id": "TECH_009",
+        "title": "Test Case Evolution",
+        "prompt": "Extract specific test cases - what inputs were tested, what edge cases were discovered? Include actual test data and assertions that were added after bugs. Provide memory IDs for test evolution timeline.",
+        "data_sources": ["pgvector", "neo4j", "elasticsearch"],
+        "expected_output": "Test inputs/outputs, edge cases found, regression tests added with memory ID documentation"
+      },
+      {
+        "id": "TECH_010",
+        "title": "Breaking Change Recovery",
+        "prompt": "Find system-wide breaking changes (like the BigInt issue). What was the root cause, how many components were affected, and what was the migration strategy? Include specific file changes with memory IDs. Example analysis: 'BigInt debugging crisis (memories bb4639215cd1af00 through 14239839936489544584, July 3 14:18-23:21 UTC) triggered 15 consecutive test memories in 9 hours.'",
+        "data_sources": ["neo4j", "elasticsearch", "pgvector"],
+        "expected_output": "Root cause, affected files list, migration steps with code changes, memory ID timeline of crisis and resolution"
+      }
+    ],
+    "phase_7_weekly_reporting": [
+      {
+        "id": "WEEKLY_001",
+        "title": "Weekly Development Activity Summary",
+        "prompt": "Generate a factual weekly work summary based on git commits and memory entries from the last 7 days. Include 5-10 key highlights as bullet points, each with 3-4 sentences of concrete description. Reference previous week's activity where relevant ('building on last week's 29 commits, scottools did...'). Focus on specific repositories, file changes, problem-solving patterns, and technical decisions. Avoid marketing language - use precise, technical descriptions of what actually happened. Include commit counts, lines changed, new features implemented, bugs fixed, and any workflow optimizations discovered. Cross-reference memory entries that provide context for the development decisions.",
+        "data_sources": ["postgresql", "neo4j", "elasticsearch"],
+        "expected_output": "Structured weekly summary with 5-10 bullet points, each containing 3-4 factual sentences about specific development activities, commit statistics, and technical progress"
+      }
+    ]
+  },
+  "autonomous_protocols": {
+    "investigation_workflow": [
+      "Execute foundation prompts to establish baseline understanding",
+      "Generate new hypotheses based on initial discoveries", 
+      "Design targeted deep-dive investigations",
+      "Cross-validate findings across multiple data sources",
+      "Create memory entries for significant discoveries",
+      "Generate follow-up prompts based on new insights",
+      "Synthesize findings into actionable recommendations"
+    ],
+    "memory_creation_triggers": [
+      "Discovery of unexpected pattern",
+      "Contradiction between data sources",
+      "Actionable insight with workflow implications", 
+      "Novel hypothesis generation",
+      "Cross-source pattern validation",
+      "Predictive model creation"
+    ],
+    "prompt_generation_criteria": [
+      "Builds on previous discoveries",
+      "Targets unexplored data combinations",
+      "Tests specific hypotheses",
+      "Seeks causal relationships",
+      "Validates contradictory findings",
+      "Explores edge cases or outliers"
+    ]
+  },
+  "success_metrics": {
+    "discovery_quality": "Number of actionable insights per investigation hour",
+    "cross_validation": "Percentage of patterns confirmed across multiple sources", 
+    "hypothesis_accuracy": "Success rate of generated hypotheses when tested",
+    "novel_insight_rate": "Discoveries that weren't obvious from single-source analysis",
+    "workflow_impact": "Measurable improvements from implemented recommendations"
+  }
+}

@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+es-venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database files
+*.db
+*.sqlite3
+*.sql
+
+# Configuration files with secrets
+*.toml
+!pyproject.toml
+config/claude-mem.toml
+.config/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files
+*.json
+!config/investigation_prompts.json
+*.csv
+*.jsonl
+
+# Neo4j data
+data/
+
+# Elasticsearch data
+elasticsearch-*/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Lock files
+uv.lock
+
+# Memory analysis output
+*session_*.md
+*_session_*.md
+discovery_*.md
+synthesis_*.md
+investigation_*.md
+
+# Archive development files (keep structure but ignore individual files)
+archive/development-sessions/*
+archive/elasticsearch-evolution/*
+archive/early-analysis/*
