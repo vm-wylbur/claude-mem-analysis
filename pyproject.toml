@@ -19,13 +19,14 @@ dependencies = [
 requires-python = ">=3.8"
 
 [project.scripts]
-retro-claude = "src.retro_claude:main"
+retro-claude = "src.retro.analyst:main"
+syn-claude = "src.syn.curator:main"
 retro-claude-all = "src.run_all:main"
-git-scanner = "src.git_scanner:main"
-postgres-importer = "src.postgres_importer:main"
-neo4j-importer = "src.neo4j_importer:main"
-elasticsearch-importer = "src.elasticsearch_importer:main"
-unified-analysis = "src.unified_analysis:main"
+git-scanner = "src.shared.git_scanner:main"
+postgres-importer = "src.shared.database.postgres_importer:main"
+neo4j-importer = "src.shared.database.neo4j_importer:main"
+elasticsearch-importer = "src.shared.database.elasticsearch_importer:main"
+unified-analysis = "src.shared.analysis.unified_analysis:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]

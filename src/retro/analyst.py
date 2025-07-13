@@ -18,7 +18,7 @@ class RetroClaudeAnalyst:
         self.session_id = f"session_{int(time.time())}"
         
         # Load investigation prompts
-        with open('config/investigation_prompts.json', 'r') as f:
+        with open('src/shared/config/investigation_prompts.json', 'r') as f:
             self.prompt_library = json.load(f)
     
     def create_claude_investigation_session(self, phase: str = "foundation"):
