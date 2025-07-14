@@ -67,6 +67,14 @@ curl localhost:9200/memories/_count
 ### 🎯 YOUR MISSION:
 Systematically investigate development patterns, generate new hypotheses, validate findings across sources, and create actionable insights through iterative discovery.
 
+### ⚠️ IMPORTANT SCOPE CONTEXT:
+This is a PERSONAL PRODUCTIVITY TOOL for individual developers, not an enterprise system:
+- Analyze patterns for individual improvement (20-30% realistic gains)
+- Avoid claims of "10x", "100x", or "1000x" improvements
+- Treat as personal retrospective analysis, not organizational transformation
+- Focus on practical, implementable insights for individuals
+- Remember: ~250 data points is a small personal dataset, not big data
+
 ### 📋 INVESTIGATION PROTOCOL:
 1. **Execute Assigned Prompts** - Work through the provided prompt list
 2. **Document Discoveries** - Record significant findings with evidence
@@ -404,7 +412,14 @@ SUCCESS_METRICS: [How to measure effectiveness]
 - What would you investigate next with more time?
 - How could this analysis approach be improved?
 
-Your goal: Create a comprehensive, evidence-based guide for optimizing development workflows that any development team could implement immediately!
+### SCOPE REMINDER:
+Remember this is a PERSONAL productivity tool:
+- Target realistic 20-30% individual improvements
+- Avoid enterprise/industry transformation claims
+- Focus on actionable personal insights
+- Base conclusions on the small dataset reality
+
+Your goal: Create a practical, evidence-based guide for personal workflow optimization!
 """
 
     def create_comprehensive_investigation_session(self):
@@ -452,6 +467,14 @@ curl localhost:9200/memory_analysis/_count
 
 ### 🎯 YOUR MISSION:
 Systematically investigate development patterns, generate new hypotheses, validate findings across sources, create actionable insights through iterative discovery, and **evolve the investigation system itself**.
+
+### ⚠️ IMPORTANT SCOPE CONTEXT:
+This is a PERSONAL PRODUCTIVITY TOOL for individual developers, not an enterprise system:
+- Analyze patterns for individual improvement (20-30% realistic gains)
+- Avoid claims of "10x", "100x", or "1000x" improvements
+- Treat as personal retrospective analysis, not organizational transformation
+- Focus on practical, implementable insights for individuals
+- Remember: ~250 data points is a small personal dataset, not big data
 
 ### 📋 COMPREHENSIVE INVESTIGATION PROTOCOL:
 
